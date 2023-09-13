@@ -9,6 +9,8 @@
       <module fileurl="file://$PROJECT_DIR$/override_VS_overload/override_VS_overload.iml" filepath="$PROJECT_DIR$/override_VS_overload/override_VS_overload.iml" />
       <module fileurl="file://$PROJECT_DIR$/part-2/part-2.iml" filepath="$PROJECT_DIR$/part-2/part-2.iml" />
       <module fileurl="file://$PROJECT_DIR$/part-3/part-3.iml" filepath="$PROJECT_DIR$/part-3/part-3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/template/template.iml" filepath="$PROJECT_DIR$/template/template.iml" />
+      <module fileurl="file://$PROJECT_DIR$/thread/thread.iml" filepath="$PROJECT_DIR$/thread/thread.iml" />
     </modules>
   </component>
 </project>
