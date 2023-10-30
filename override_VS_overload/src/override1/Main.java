@@ -1,4 +1,6 @@
 package override1;
+
+// 方法重写 父类子类之间
 public class Main {
     public static void main(String[] args) {
         Animal a = new Animal();
