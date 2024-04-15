@@ -1,6 +1,6 @@
 package overload;
 
-// 方法重载 一个类中
+// overload 方法重载 一个类中
 public class Main {
     public static void demoMethod(int a) {
         System.out.println("a" + a);
