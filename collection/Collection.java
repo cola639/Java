@@ -5,7 +5,7 @@ import java.util.*;
 //        - Map：键值对，键唯一，允许值重复。
 //        - Queue：先进先出，用于按顺序处理元素。
 
-public class Collect {
+public class Collection {
     public static void main(String[] args) {
         // 实例化并调用每个示例类的方法
         SetExample setExample = new SetExample();
