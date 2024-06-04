@@ -7,13 +7,13 @@
     - 右键点击项目的根目录（`java-fundamental`），选择 `New -> Module...`。
 
 3. **选择模块类型**：
-    - 在弹出的对话框中，选择 `Java` 作为模块类型。
+    - 在弹出的对话框中，左侧选择 `New Module` 作为模块类型。
     - 点击 `Next`。
 
-4. **填写模块信息**：
-    - 输入模块名称（如 `new-module`）。
-    - 指定模块位置（默认位置即可）。
-    - 点击 `Finish`。
+4. **修改iml**：
+    -   <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />。
+    -    修改为 <sourceFolder url="file://$MODULE_DIR$" isTestSource="false" />。
+
 
 ### 添加 Java 文件
 

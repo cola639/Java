@@ -3,14 +3,15 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/annoation/annoation.iml" filepath="$PROJECT_DIR$/annoation/annoation.iml" />
-      <module fileurl="file://$PROJECT_DIR$/collect/collect.iml" filepath="$PROJECT_DIR$/collect/collect.iml" />
       <module fileurl="file://$PROJECT_DIR$/collection/collection.iml" filepath="$PROJECT_DIR$/collection/collection.iml" />
       <module fileurl="file://$PROJECT_DIR$/equal/equal.iml" filepath="$PROJECT_DIR$/equal/equal.iml" />
       <module fileurl="file://$PROJECT_DIR$/java-fundamental.iml" filepath="$PROJECT_DIR$/java-fundamental.iml" />
       <module fileurl="file://$PROJECT_DIR$/loop/loop.iml" filepath="$PROJECT_DIR$/loop/loop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/modifiers/modifiers.iml" filepath="$PROJECT_DIR$/modifiers/modifiers.iml" />
       <module fileurl="file://$PROJECT_DIR$/override_VS_overload/override_VS_overload.iml" filepath="$PROJECT_DIR$/override_VS_overload/override_VS_overload.iml" />
       <module fileurl="file://$PROJECT_DIR$/part-2/part-2.iml" filepath="$PROJECT_DIR$/part-2/part-2.iml" />
       <module fileurl="file://$PROJECT_DIR$/part-3/part-3.iml" filepath="$PROJECT_DIR$/part-3/part-3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/statement/statement.iml" filepath="$PROJECT_DIR$/statement/statement.iml" />
       <module fileurl="file://$PROJECT_DIR$/template/template.iml" filepath="$PROJECT_DIR$/template/template.iml" />
       <module fileurl="file://$PROJECT_DIR$/thread/thread.iml" filepath="$PROJECT_DIR$/thread/thread.iml" />
       <module fileurl="file://$PROJECT_DIR$/timeGen/timeGen.iml" filepath="$PROJECT_DIR$/timeGen/timeGen.iml" />
