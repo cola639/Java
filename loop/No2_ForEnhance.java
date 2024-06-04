@@ -1,4 +1,4 @@
-public class ForEnhance {
+public class No2_ForEnhance {
     public static void main(String[] args) {
         int[] numbers = {10, 20, 30, 40, 50};
         String[] names = {"James", "Larry", "Tom", "Lacy"};

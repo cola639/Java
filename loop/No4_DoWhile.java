@@ -1,4 +1,4 @@
-public class Dowhile {
+public class No4_DoWhile {
     public static void main(String[] args){
         int x = 10;
 

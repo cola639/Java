@@ -33,6 +33,7 @@ public class Main {
         ArrayList<Person> list = new ArrayList<Person>();
         list.add(new Person("John", 20));
         list.add(new Person("Jane", 30));
+
         System.out.println("list" + list);
     }
 }
