@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/annoation/annoation.iml" filepath="$PROJECT_DIR$/annoation/annoation.iml" />
       <module fileurl="file://$PROJECT_DIR$/collection/collection.iml" filepath="$PROJECT_DIR$/collection/collection.iml" />
+      <module fileurl="file://$PROJECT_DIR$/condition/condition.iml" filepath="$PROJECT_DIR$/condition/condition.iml" />
       <module fileurl="file://$PROJECT_DIR$/equal/equal.iml" filepath="$PROJECT_DIR$/equal/equal.iml" />
       <module fileurl="file://$PROJECT_DIR$/java-fundamental.iml" filepath="$PROJECT_DIR$/java-fundamental.iml" />
       <module fileurl="file://$PROJECT_DIR$/loop/loop.iml" filepath="$PROJECT_DIR$/loop/loop.iml" />
