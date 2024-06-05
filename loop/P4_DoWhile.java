@@ -1,10 +1,11 @@
-public class No3_While {
+public class P4_DoWhile {
     public static void main(String[] args) {
         int x = 10;
-        while (x < 20) {
+
+        do {
             System.out.print("value of x : " + x);
             x++;
             System.out.print("\n");
-        }
+        } while (x < 20);
     }
 }

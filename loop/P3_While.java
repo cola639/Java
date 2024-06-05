@@ -1,8 +1,9 @@
-public class No1_For {
+public class P3_While {
     public static void main(String[] args) {
-
-        for (int x = 10; x < 20; x = x + 1) {
+        int x = 10;
+        while (x < 20) {
             System.out.print("value of x : " + x);
+            x++;
             System.out.print("\n");
         }
     }
