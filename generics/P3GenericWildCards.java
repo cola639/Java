@@ -1,6 +1,10 @@
-import java.util.*;
+import java.util.ArrayList;
+import java.util.List;
 
-public class Types2 {
+// <?>
+// wildcards are represented by the `?` symbol and can be used in three ways:
+
+public class P3GenericWildCards {
 
     public static void main(String[] args) {
         List<String> name = new ArrayList<String>();
@@ -11,17 +15,13 @@ public class Types2 {
         age.add(18);
         number.add(314);
 
-        //getUperNumber(name);   // Error 1
-        getUperNumber(age);        // 2
-        getUperNumber(number); // 3
+        getData(name);
+        getData(age);
+        getData(number);
 
     }
 
     public static void getData(List<?> data) {
-        System.out.println("data :" + data.get(0));
-    }
-
-    public static void getUperNumber(List<? extends Number> data) {
         System.out.println("data :" + data.get(0));
     }
 }

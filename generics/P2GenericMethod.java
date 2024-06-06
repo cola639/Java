@@ -1,7 +1,6 @@
-public class P1_GenericMethodTest {
+public class P2GenericMethod {
     // 泛型方法 printArray
     public static <E> void printArray(E[] inputArray) {
-        // 输出数组元素
         for (E element : inputArray) {
             System.out.printf("%s ", element);
         }
@@ -15,12 +14,12 @@ public class P1_GenericMethodTest {
         Character[] charArray = {'H', 'E', 'L', 'L', 'O'};
 
         System.out.println("整型数组元素为:");
-        printArray(intArray); // 传递一个整型数组
+        printArray(intArray);   //   调用泛型方法 printArray   传递一个整型数组
 
         System.out.println("\n双精度型数组元素为:");
-        printArray(doubleArray); // 传递一个双精度型数组
+        printArray(doubleArray);   //   调用泛型方法 printArray   传递一个双精度型数组
 
         System.out.println("\n字符型数组元素为:");
-        printArray(charArray); // 传递一个字符型数组
+        printArray(charArray);     //   调用泛型方法 printArray   传递一个字符型数组
     }
 }
