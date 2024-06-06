@@ -1,5 +1,9 @@
 import java.util.*;
 
+// <?>
+// wildcards are represented by the `?` symbol and can be used in three ways:
+// extends keyword
+
 public class P3GenericWildCardsExtend {
 
     public static void main(String[] args) {

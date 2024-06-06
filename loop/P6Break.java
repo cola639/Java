@@ -1,4 +1,4 @@
-public class P6_Break {
+public class P6Break {
     public static void main(String[] args) {
         int[] numbers = {10, 20, 30, 40, 50};
 
