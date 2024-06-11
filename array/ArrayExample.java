@@ -2,7 +2,8 @@ public class ArrayExample {
     public static void main(String[] args) {
         // 数组大小
         int size = 10;
-        // 定义数组
+        // 创建数组
+        // dataType[] arrayRefVar = new dataType[arraySize];
         double[] myList = new double[size];
         myList[0] = 5.6;
         myList[1] = 4.5;

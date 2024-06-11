@@ -1,10 +1,13 @@
 ### Generics in Java
 
-Generics in Java are a powerful feature that allows you to write more flexible and reusable code. They enable you to define classes, interfaces, and methods with a placeholder for the type they operate on. Here is a comprehensive overview of generics:
+Generics in Java are a powerful feature that allows you to write more flexible and reusable code. They enable you to
+define classes, interfaces, and methods with a placeholder for the type they operate on. Here is a comprehensive
+overview of generics:
 
 #### 1. **Basic Syntax**
 
-A generic type is a class or interface that is parameterized over types. The most commonly used type parameter names are:
+A generic type is a class or interface that is parameterized over types. The most commonly used type parameter names
+are:
 
 - `E` - Element (used extensively by the Java Collections Framework)
 - `K` - Key
@@ -38,7 +41,8 @@ Box<String> stringBox = new Box<>();
 
 #### 2. **Generic Methods**
 
-Generic methods are methods that introduce their own type parameters. This is particularly useful for static methods, as they cannot access the class’s type parameters.
+Generic methods are methods that introduce their own type parameters. This is particularly useful for static methods, as
+they cannot access the class’s type parameters.
 
 ```java
 public class Util {
@@ -62,7 +66,8 @@ Util.printArray(stringArray);
 
 #### 3. **Bounded Type Parameters**
 
-You can restrict the types that can be used as type arguments with bounded type parameters. The bounds can be either upper or lower.
+You can restrict the types that can be used as type arguments with bounded type parameters. The bounds can be either
+upper or lower.
 
 **Upper Bounded Type Parameter:**
 
@@ -126,7 +131,9 @@ public interface Pair<K, V> {
 Example implementation:
 
 ```java
-public class OrderedPair<K, V> implements Pair<K, V> {
+public class OrderedPair<K, V> p2_implements Pair
+
+<K, V> {
     private K key;
     private V value;
 
@@ -135,14 +142,19 @@ public class OrderedPair<K, V> implements Pair<K, V> {
         this.value = value;
     }
 
-    public K getKey() { return key; }
-    public V getValue() { return value; }
+    public K getKey () {
+        return key;
+    }
+    public V getValue () {
+        return value;
+    }
 }
 ```
 
 #### 6. **Type Erasure**
 
-Java generics use a feature called type erasure to maintain backward compatibility with older versions of Java. This means that the generic type information is only available at compile time and is erased at runtime.
+Java generics use a feature called type erasure to maintain backward compatibility with older versions of Java. This
+means that the generic type information is only available at compile time and is erased at runtime.
 
 ```java
 public class Box<T> {
@@ -178,4 +190,5 @@ public class Box {
 - Use bounded wildcards to increase API flexibility.
 - Prefer `List<E>` over `E[]` to avoid issues with type safety and type erasure.
 
-Generics provide a way to ensure type safety and reduce the risk of `ClassCastException` at runtime. They also enable you to write more generic and reusable code.
+Generics provide a way to ensure type safety and reduce the risk of `ClassCastException` at runtime. They also enable
+you to write more generic and reusable code.
