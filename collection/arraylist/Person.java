@@ -9,5 +9,5 @@ public class Person {
         this.name = name;
         this.age = age;
     }
-    // constructor, getters and setters...
+
 }
