@@ -45,10 +45,10 @@ public class ArrayExample {
 
         int[] exampleArray = {1, 2, 3, 4, 5};
 
-        // 5 数组作为函数的参数
+        // 5 作为函数的参数 (将数组作为参数传递给函数)
         printArray(exampleArray);
 
-        // 6 数组作为函数的返回值
+        // 6 作为函数的返回值 (将数组作为返回值返回给调用者)
         int[] reversedArray = reverse(exampleArray);
 
         // 打印二维数组的元素
@@ -60,7 +60,6 @@ public class ArrayExample {
         }
     }
 
-    // 5 作为函数的参数 (将数组作为参数传递给函数)
     public static void printArray(int[] array) {
         for (int i = 0; i < array.length; i++) {
             System.out.print(array[i] + " ");
@@ -68,7 +67,6 @@ public class ArrayExample {
         System.out.println();
     }
 
-    // 6 作为函数的返回值 (将数组作为返回值返回给调用者)
     public static int[] reverse(int[] list) {
         int[] result = new int[list.length];
 
