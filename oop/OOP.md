@@ -1,6 +1,6 @@
 ## 1 extend
 
-![./p1_extend.jpg](img.png)
+![./extend.jpg](extend.jpg)
 
 - 1 子类拥有父类非 private 的属性、方法。
 
