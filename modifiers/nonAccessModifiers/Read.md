@@ -2,25 +2,26 @@
 
 ### `static`关键字的作用
 
-- **类级别的方法或变量**：`static`关键字表示该方法或变量属于类，而不是类的实例。也就是说，`static`方法或变量在内存中只有一份，可以直接通过类名访问，无需创建实例。
+- **类级别的方法或变量**：`static`关键字表示该方法或变量属于类，而不是类的实例。也就是说，`static`
+  方法或变量在内存中只有一份，可以直接通过类名访问，无需创建实例。
 
 ### 代码示例对比
 
 ```java
-public int[] reverse(int[] list) {
-    int[] result = new int[list.length];
+public int[] reverse(int[] p1_list) {
+    int[] result = new int[p1_list.length];
 
-    for (int i = 0, j = result.length - 1; i < list.length; i++, j--) {
-        result[j] = list[i];
+    for (int i = 0, j = result.length - 1; i < p1_list.length; i++, j--) {
+        result[j] = p1_list[i];
     }
     return result;
 }
 
-public static int[] reverse(int[] list) {
-    int[] result = new int[list.length];
+public static int[] reverse(int[] p1_list) {
+    int[] result = new int[p1_list.length];
 
-    for (int i = 0, j = result.length - 1; i < list.length; i++, j--) {
-        result[j] = list[i];
+    for (int i = 0, j = result.length - 1; i < p1_list.length; i++, j--) {
+        result[j] = p1_list[i];
     }
     return result;
 }
@@ -35,10 +36,10 @@ public static int[] reverse(int[] list) {
 
    ```java
    public class Example {
-       public int[] reverse(int[] list) {
-           int[] result = new int[list.length];
-           for (int i = 0, j = result.length - 1; i < list.length; i++, j--) {
-               result[j] = list[i];
+       public int[] reverse(int[] p1_list) {
+           int[] result = new int[p1_list.length];
+           for (int i = 0, j = result.length - 1; i < p1_list.length; i++, j--) {
+               result[j] = p1_list[i];
            }
            return result;
        }
@@ -58,10 +59,10 @@ public static int[] reverse(int[] list) {
 
    ```java
    public class Example {
-       public static int[] reverse(int[] list) {
-           int[] result = new int[list.length];
-           for (int i = 0, j = result.length - 1; i < list.length; i++, j--) {
-               result[j] = list[i];
+       public static int[] reverse(int[] p1_list) {
+           int[] result = new int[p1_list.length];
+           for (int i = 0, j = result.length - 1; i < p1_list.length; i++, j--) {
+               result[j] = p1_list[i];
            }
            return result;
        }
@@ -89,7 +90,9 @@ public static int[] reverse(int[] list) {
 
 ### 项目实践中如何选择
 
-- **独立操作**：如果方法独立于实例，可以将其定义为`static`。例如，`reverse`方法不依赖于任何实例变量或实例方法，只需要数组参数，因此可以定义为`static`。
+- **独立操作**：如果方法独立于实例，可以将其定义为`static`。例如，`reverse`
+  方法不依赖于任何实例变量或实例方法，只需要数组参数，因此可以定义为`static`。
 - **依赖实例**：如果方法需要访问或修改实例变量或调用其他实例方法，则不应该将其定义为`static`。
 
-通过理解`static`关键字的作用及其使用场景，可以在项目实践中更好地判断是否需要使用`static`。例如，工具类方法通常定义为`static`，而涉及对象状态的方法则通常是实例方法。
+通过理解`static`关键字的作用及其使用场景，可以在项目实践中更好地判断是否需要使用`static`
+。例如，工具类方法通常定义为`static`，而涉及对象状态的方法则通常是实例方法。

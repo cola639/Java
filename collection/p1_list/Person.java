@@ -1,4 +1,4 @@
-package arraylist;
+package p1_list;
 
 public class Person {
     private String name;
@@ -9,5 +9,5 @@ public class Person {
         this.name = name;
         this.age = age;
     }
-
+    // constructor, getters and setters...
 }

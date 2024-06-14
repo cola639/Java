@@ -80,8 +80,8 @@ public <T extends Number> void inspect(T t) {
 **Lower Bounded Type Parameter:**
 
 ```java
-public static void addNumbers(List<? super Integer> list) {
-    list.add(new Integer(50));
+public static void addNumbers(List<? super Integer> p1_list) {
+    p1_list.add(new Integer(50));
 }
 ```
 
@@ -92,8 +92,8 @@ Wildcards are represented by the `?` symbol and can be used in three ways:
 **Unbounded Wildcards:**
 
 ```java
-public void printList(List<?> list) {
-    for (Object elem : list) {
+public void printList(List<?> p1_list) {
+    for (Object elem : p1_list) {
         System.out.println(elem);
     }
 }
@@ -102,8 +102,8 @@ public void printList(List<?> list) {
 **Upper Bounded Wildcards:**
 
 ```java
-public void processElements(List<? extends Number> list) {
-    for (Number n : list) {
+public void processElements(List<? extends Number> p1_list) {
+    for (Number n : p1_list) {
         System.out.println(n.doubleValue());
     }
 }
@@ -112,8 +112,8 @@ public void processElements(List<? extends Number> list) {
 **Lower Bounded Wildcards:**
 
 ```java
-public void addNumbers(List<? super Integer> list) {
-    list.add(new Integer(10));
+public void addNumbers(List<? super Integer> p1_list) {
+    p1_list.add(new Integer(10));
 }
 ```
 
