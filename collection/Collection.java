@@ -1,5 +1,26 @@
 import java.util.*;
 
+/**
+ * Java集合框架主要由接口、具体类和算法组成：
+ * 接口：如 Collection、List、Set、Map 等，定义了数据结构的行为。
+ * 具体类：如 ArrayList、LinkedList、HashSet、HashMap 等，实现了接口并提供了具体的功能。
+ * 算法：如 Collections 类中的静态方法，提供了对集合进行排序、搜索和修改的算法。
+ *
+ * 接口与数据结构的关系
+ * Collection：根接口，所有集合类的超类。提供了基本的集合操作方法。
+ * List：线性列表，元素有序且可重复。
+ * ArrayList：基于动态数组实现，适合频繁访问元素的场景。
+ * LinkedList：基于双向链表实现，适合频繁插入和删除元素的场景。
+ * Set：无序集合，元素不重复。
+ * HashSet：基于哈希表实现，不保证顺序。
+ * TreeSet：基于红黑树实现，元素按自然顺序或指定比较器排序。
+ * Queue：队列，通常用于按FIFO顺序存储元素。
+ * LinkedList：也实现了Queue接口，提供队列操作。
+ * PriorityQueue：基于堆实现，元素按优先级顺序处理。
+ * Map：键值对集合，不属于Collection接口，但与集合框架密切相关。
+ * HashMap：基于哈希表实现，键值对无序。
+ * TreeMap：基于红黑树实现，键值对按键的自然顺序或指定比较器排序。
+ */
 //        - Set：无序，不允许重复元素。
 //        - List：有序，允许重复元素。
 //        - Map：键值对，键唯一，允许值重复。
@@ -51,7 +72,7 @@ public class Collection {
             treeSet.add("Apple");
 
             System.out.println("TreeSet: " + treeSet);
-            System.out.println("-------------------------------------------------------" );
+            System.out.println("-------------------------------------------------------");
         }
     }
 
@@ -75,7 +96,7 @@ public class Collection {
             linkedList.add("Apple");
 
             System.out.println("LinkedList: " + linkedList);
-            System.out.println("-------------------------------------------------------" );
+            System.out.println("-------------------------------------------------------");
         }
     }
 
@@ -108,7 +129,7 @@ public class Collection {
             treeMap.put("Apple", 4);
 
             System.out.println("TreeMap: " + treeMap);
-            System.out.println("-------------------------------------------------------" );
+            System.out.println("-------------------------------------------------------");
         }
     }
 
