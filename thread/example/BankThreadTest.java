@@ -1,6 +1,6 @@
-package Bank;
+package example;
 
-public class ThreadTest {
+public class BankThreadTest {
     public static final int DELAY = 10;
     public static final int STEPS = 100;
     public static final int MAX_AMOUNT = 1000;

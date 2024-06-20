@@ -1,4 +1,4 @@
-package Bank;
+package example;
 
 import java.util.Arrays;
 
