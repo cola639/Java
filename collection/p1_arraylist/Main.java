@@ -11,7 +11,7 @@ public class Main {
         personList();
     }
 
-    // 字符串list
+    // string list
     public static void strList() {
         ArrayList<String> list = new ArrayList<String>();
         list.add("Hello");
@@ -19,7 +19,7 @@ public class Main {
         System.out.println("p1_list" + list);
     }
 
-    // 数字list
+    // number list
     public static void numList() {
         ArrayList<Integer> list = new ArrayList<Integer>();
         list.add(10);
@@ -28,7 +28,7 @@ public class Main {
         System.out.println("p1_list" + list);
     }
 
-    // 对象List
+    // object List
     public static void personList() {
         ArrayList<Person> list = new ArrayList<Person>();
         list.add(new Person("John", 20));

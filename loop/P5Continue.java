@@ -7,7 +7,6 @@ public class P5Continue {
                 continue;
             }
             System.out.print(x);
-            System.out.print("\n");
         }
     }
 }
