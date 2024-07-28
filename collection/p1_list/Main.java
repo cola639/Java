@@ -31,7 +31,10 @@ public class Main {
         ArrayList<Person> list = new ArrayList<Person>();
         list.add(new Person("John", 20));
         list.add(new Person("Jane", 30));
-        System.out.println("p1_list" + list);
+
+        for (Person person : list) {
+            System.out.println(person.getName() + " " + person.getAge());
+        }
     }
 }
 

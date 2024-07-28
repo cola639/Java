@@ -12,6 +12,8 @@ public class Basic {
     public static void main(String[] args) {
         // Create an instance of the Basic class
         Basic obj = new Basic();
+        long a = Math.round(-1.5);
+        System.out.println("a " + a);
 
         // Call the addExample method
         obj.addExample();
