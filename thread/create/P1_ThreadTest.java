@@ -1,6 +1,6 @@
 package create;
 
-public class P1_TestThread {
+public class P1_ThreadTest {
 
     public static void main(String args[]) {
         P1_ThreadDemo T1 = new P1_ThreadDemo("Thread-1");
