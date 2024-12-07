@@ -1,5 +1,6 @@
 package create;
 
+// extends Thread
 public class P1_ThreadDemo extends Thread {
     private Thread t;
     private String threadName;

@@ -1,5 +1,6 @@
 package create;
 
+// implements Runnable
 public class P2_RunnableDemo implements Runnable {
     private Thread t;
     private String threadName;

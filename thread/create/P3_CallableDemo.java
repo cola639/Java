@@ -4,7 +4,7 @@ import java.util.concurrent.Callable;
 import java.util.concurrent.ExecutionException;
 import java.util.concurrent.FutureTask;
 
-public class P4_FutureDemo implements Callable<Integer> {
+public class P3_CallableDemo implements Callable<Integer> {
     public static void main(String[] args) {
         P3_TestCallableDemo ctt = new P3_TestCallableDemo();
         FutureTask<Integer> ft = new FutureTask<>(ctt);
