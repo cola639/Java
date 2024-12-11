@@ -5,5 +5,5 @@ import java.lang.annotation.RetentionPolicy;
 
 @Retention(RetentionPolicy.RUNTIME) // runtime
 public @interface MyAnnotation {
-    String value() default "Hellow";
+    String value() default "Hello";
 }
