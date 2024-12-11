@@ -9,6 +9,8 @@
       <module fileurl="file://$PROJECT_DIR$/comparison/comparison.iml" filepath="$PROJECT_DIR$/comparison/comparison.iml" />
       <module fileurl="file://$PROJECT_DIR$/condition/condition.iml" filepath="$PROJECT_DIR$/condition/condition.iml" />
       <module fileurl="file://$PROJECT_DIR$/dynamicProxy/dynamicProxy.iml" filepath="$PROJECT_DIR$/dynamicProxy/dynamicProxy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/equals/equals.iml" filepath="$PROJECT_DIR$/equals/equals.iml" />
+      <module fileurl="file://$PROJECT_DIR$/error/error.iml" filepath="$PROJECT_DIR$/error/error.iml" />
       <module fileurl="file://$PROJECT_DIR$/exception/exception.iml" filepath="$PROJECT_DIR$/exception/exception.iml" />
       <module fileurl="file://$PROJECT_DIR$/generics/generics.iml" filepath="$PROJECT_DIR$/generics/generics.iml" />
       <module fileurl="file://$PROJECT_DIR$/lock/lock.iml" filepath="$PROJECT_DIR$/lock/lock.iml" />
