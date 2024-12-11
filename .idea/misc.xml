@@ -8,11 +8,13 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/map/pom.xml" />
+        <option value="$PROJECT_DIR$/serialization/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/map/pom.xml" />
+        <option value="$PROJECT_DIR$/serialization/pom.xml" />
       </set>
     </option>
     <option name="workspaceImportForciblyTurnedOn" value="true" />
