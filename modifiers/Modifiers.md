@@ -151,7 +151,7 @@ public class Cat extends Animal {
 }
 
 // 测试类
-public class Test {
+public class parentDelegation.Test {
     public static void main(String[] args) {
         Animal dog = new Dog();
         dog.makeSound(); // 输出 "Woof"
