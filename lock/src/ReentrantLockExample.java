@@ -1,6 +1,6 @@
 import java.util.concurrent.locks.ReentrantLock;
 
-public class LockExample {
+public class ReentrantLockExample {
     private final ReentrantLock lock = new ReentrantLock();
     private int sharedVariable = 0;
 
@@ -27,7 +27,7 @@ public class LockExample {
     }
 
     public static void main(String[] args) {
-        LockExample example = new LockExample();
+        ReentrantLockExample example = new ReentrantLockExample();
 
         Runnable task = () -> example.accessVariable();
 
