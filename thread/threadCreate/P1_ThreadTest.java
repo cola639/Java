@@ -1,4 +1,4 @@
-package create;
+package threadCreate;
 
 public class P1_ThreadTest {
 

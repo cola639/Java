@@ -1,4 +1,4 @@
-package state;
+package threadState;
 
 public class ThreadWait {
     private static final Object lock = new Object();

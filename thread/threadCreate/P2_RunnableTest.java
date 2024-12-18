@@ -1,4 +1,4 @@
-package create;
+package threadCreate;
 
 public class P2_RunnableTest {
     public static void main(String args[]) {

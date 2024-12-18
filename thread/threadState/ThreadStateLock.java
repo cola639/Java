@@ -1,4 +1,4 @@
-package state;
+package threadState;
 
 public class ThreadStateLock {
     private static final Object lock = new Object();

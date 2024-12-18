@@ -1,4 +1,4 @@
-package state;
+package threadState;
 
 public class ThreadStateNEW {
     public static void main(String[] args) {

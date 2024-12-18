@@ -1,4 +1,4 @@
-package state;
+package threadState;
 
 public class ThreadStateRUNNABLE {
     public static void main(String[] args) throws InterruptedException {

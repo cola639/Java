@@ -1,11 +1,11 @@
-package create;
+package threadCreate;
 
-// extends Thread
-public class P1_ThreadDemo extends Thread {
+// implements Runnable
+public class P2_RunnableDemo implements Runnable {
     private Thread t;
     private String threadName;
 
-    P1_ThreadDemo(String name) {
+    P2_RunnableDemo(String name) {
         threadName = name;
         System.out.println("Creating " + threadName);
     }
@@ -31,5 +31,5 @@ public class P1_ThreadDemo extends Thread {
             t.start();
         }
     }
-}
 
+}

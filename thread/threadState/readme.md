@@ -14,7 +14,7 @@ public class ThreadStateExample {
         // 创建线程但未启动
         Thread thread = new Thread(() -> System.out.println("Thread is running"));
         
-        System.out.println("Thread state before start: " + thread.getState());  // 输出 NEW
+        System.out.println("Thread threadState before start: " + thread.getState());  // 输出 NEW
         
         // 启动线程
         thread.start();
@@ -24,7 +24,7 @@ public class ThreadStateExample {
 
 **输出**：
 ```
-Thread state before start: NEW
+Thread threadState before start: NEW
 Thread is running
 ```
 
@@ -43,10 +43,10 @@ public class ThreadStateExample {
             System.out.println("Thread is running");
         });
 
-        System.out.println("Thread state before start: " + thread.getState());  // 输出 NEW
+        System.out.println("Thread threadState before start: " + thread.getState());  // 输出 NEW
         
         thread.start();
-        System.out.println("Thread state after start: " + thread.getState());  // 输出 RUNNABLE
+        System.out.println("Thread threadState after start: " + thread.getState());  // 输出 RUNNABLE
         
         thread.join();  // 等待线程执行完毕
     }
@@ -55,9 +55,9 @@ public class ThreadStateExample {
 
 **输出**：
 ```
-Thread state before start: NEW
+Thread threadState before start: NEW
 Thread is running
-Thread state after start: RUNNABLE
+Thread threadState after start: RUNNABLE
 ```
 
 在这个示例中，线程调用了 `start()` 方法后，它变为 **RUNNABLE** 状态，等待操作系统为它分配 CPU 时间片。
@@ -173,7 +173,7 @@ public class ThreadStateExample {
         thread.start();
         thread.join();  // 等待线程完成
 
-        System.out.println("Thread state after completion: " + thread.getState());  // 输出 TERMINATED
+        System.out.println("Thread threadState after completion: " + thread.getState());  // 输出 TERMINATED
     }
 }
 ```
@@ -181,7 +181,7 @@ public class ThreadStateExample {
 **输出**：
 ```
 Thread is running
-Thread state after completion: TERMINATED
+Thread threadState after completion: TERMINATED
 ```
 
 在这个例子中，线程 `thread` 在完成执行后进入 **TERMINATED** 状态。
