@@ -1,3 +1,5 @@
+package src;
+
 public class SimpleThreadExample {
     public static void main(String[] args) {
         // 创建第一个线程，用于打印偶数
