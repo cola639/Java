@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/Java.iml" filepath="$PROJECT_DIR$/Java.iml" />
       <module fileurl="file://$PROJECT_DIR$/annoation/annoation.iml" filepath="$PROJECT_DIR$/annoation/annoation.iml" />
       <module fileurl="file://$PROJECT_DIR$/array/array.iml" filepath="$PROJECT_DIR$/array/array.iml" />
+      <module fileurl="file://$PROJECT_DIR$/clone/clone.iml" filepath="$PROJECT_DIR$/clone/clone.iml" />
       <module fileurl="file://$PROJECT_DIR$/collection/collection.iml" filepath="$PROJECT_DIR$/collection/collection.iml" />
       <module fileurl="file://$PROJECT_DIR$/comparison/comparison.iml" filepath="$PROJECT_DIR$/comparison/comparison.iml" />
       <module fileurl="file://$PROJECT_DIR$/condition/condition.iml" filepath="$PROJECT_DIR$/condition/condition.iml" />
@@ -25,6 +26,7 @@
       <module fileurl="file://$PROJECT_DIR$/reflection/reflection.iml" filepath="$PROJECT_DIR$/reflection/reflection.iml" />
       <module fileurl="file://$PROJECT_DIR$/serialization/serialization.iml" filepath="$PROJECT_DIR$/serialization/serialization.iml" />
       <module fileurl="file://$PROJECT_DIR$/statement/statement.iml" filepath="$PROJECT_DIR$/statement/statement.iml" />
+      <module fileurl="file://$PROJECT_DIR$/stringCompare/stringCompare.iml" filepath="$PROJECT_DIR$/stringCompare/stringCompare.iml" />
       <module fileurl="file://$PROJECT_DIR$/template/template.iml" filepath="$PROJECT_DIR$/template/template.iml" />
       <module fileurl="file://$PROJECT_DIR$/thread/thread.iml" filepath="$PROJECT_DIR$/thread/thread.iml" />
       <module fileurl="file://$PROJECT_DIR$/timeGen/timeGen.iml" filepath="$PROJECT_DIR$/timeGen/timeGen.iml" />
