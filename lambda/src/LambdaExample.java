@@ -8,7 +8,7 @@ interface Adder {
     int add(int a, int b);
 }
 
-public class Main {
+public class LambdaExample {
     public static void main(String[] args) {
 
         // 1 使用 Lambda 表达式实现 Runnable 接口
