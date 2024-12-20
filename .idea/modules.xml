@@ -14,7 +14,7 @@
       <module fileurl="file://$PROJECT_DIR$/error/error.iml" filepath="$PROJECT_DIR$/error/error.iml" />
       <module fileurl="file://$PROJECT_DIR$/exception/exception.iml" filepath="$PROJECT_DIR$/exception/exception.iml" />
       <module fileurl="file://$PROJECT_DIR$/generics/generics.iml" filepath="$PROJECT_DIR$/generics/generics.iml" />
-      <module fileurl="file://$PROJECT_DIR$/JVM/jvm.iml" filepath="$PROJECT_DIR$/JVM/jvm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jvm/jvm.iml" filepath="$PROJECT_DIR$/jvm/jvm.iml" />
       <module fileurl="file://$PROJECT_DIR$/lambda/lambda.iml" filepath="$PROJECT_DIR$/lambda/lambda.iml" />
       <module fileurl="file://$PROJECT_DIR$/lock/lock.iml" filepath="$PROJECT_DIR$/lock/lock.iml" />
       <module fileurl="file://$PROJECT_DIR$/loop/loop.iml" filepath="$PROJECT_DIR$/loop/loop.iml" />
@@ -25,6 +25,7 @@
       <module fileurl="file://$PROJECT_DIR$/override_VS_overload/override_VS_overload.iml" filepath="$PROJECT_DIR$/override_VS_overload/override_VS_overload.iml" />
       <module fileurl="file://$PROJECT_DIR$/part-2/part-2.iml" filepath="$PROJECT_DIR$/part-2/part-2.iml" />
       <module fileurl="file://$PROJECT_DIR$/part-3/part-3.iml" filepath="$PROJECT_DIR$/part-3/part-3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/primitiveType/primitiveType.iml" filepath="$PROJECT_DIR$/primitiveType/primitiveType.iml" />
       <module fileurl="file://$PROJECT_DIR$/reflection/reflection.iml" filepath="$PROJECT_DIR$/reflection/reflection.iml" />
       <module fileurl="file://$PROJECT_DIR$/serialization/serialization.iml" filepath="$PROJECT_DIR$/serialization/serialization.iml" />
       <module fileurl="file://$PROJECT_DIR$/statement/statement.iml" filepath="$PROJECT_DIR$/statement/statement.iml" />
