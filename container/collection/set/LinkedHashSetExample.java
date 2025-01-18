@@ -10,6 +10,6 @@ public class LinkedHashSetExample {
         set.add("Banana");
         set.add("Cherry");
 
-        System.out.println(set); // 输出：[Apple, Banana, Cherry]，按照插入顺序
+        System.out.println(set); // Output：[Apple, Banana, Cherry]，按照插入顺序
     }
 }

@@ -10,6 +10,6 @@ public class TreeSetExample {
         set.add(2);
         set.add(10);
 
-        System.out.println(set); // 输出：[2, 5, 10]，自然顺序
+        System.out.println(set); // Output：[2, 5, 10]，自然顺序
     }
 }

@@ -7,9 +7,9 @@
       <module fileurl="file://$PROJECT_DIR$/annoation/annoation.iml" filepath="$PROJECT_DIR$/annoation/annoation.iml" />
       <module fileurl="file://$PROJECT_DIR$/array/array.iml" filepath="$PROJECT_DIR$/array/array.iml" />
       <module fileurl="file://$PROJECT_DIR$/clone/clone.iml" filepath="$PROJECT_DIR$/clone/clone.iml" />
-      <module fileurl="file://$PROJECT_DIR$/collection/collection.iml" filepath="$PROJECT_DIR$/collection/collection.iml" />
       <module fileurl="file://$PROJECT_DIR$/comparison/comparison.iml" filepath="$PROJECT_DIR$/comparison/comparison.iml" />
       <module fileurl="file://$PROJECT_DIR$/condition/condition.iml" filepath="$PROJECT_DIR$/condition/condition.iml" />
+      <module fileurl="file://$PROJECT_DIR$/container/container.iml" filepath="$PROJECT_DIR$/container/container.iml" />
       <module fileurl="file://$PROJECT_DIR$/dynamicProxy/dynamicProxy.iml" filepath="$PROJECT_DIR$/dynamicProxy/dynamicProxy.iml" />
       <module fileurl="file://$PROJECT_DIR$/equals/equals.iml" filepath="$PROJECT_DIR$/equals/equals.iml" />
       <module fileurl="file://$PROJECT_DIR$/error/error.iml" filepath="$PROJECT_DIR$/error/error.iml" />

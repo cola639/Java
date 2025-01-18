@@ -8,6 +8,7 @@ public class VectorExample {
         vector.add("Apple");
         vector.add("Banana");
 
-        System.out.println(vector); // 输出：[Apple, Banana]
+        System.out.println(vector); // Output：[Apple, Banana]
+        // Vector: Uses dynamic array, thread-safe but slower due to synchronization.
     }
 }

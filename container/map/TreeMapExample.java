@@ -10,7 +10,7 @@ public class TreeMapExample {
         map.put(2, "Banana");
         map.put(10, "Cherry");
 
-        System.out.println(map); // 输出：{2=Banana, 5=Apple, 10=Cherry}，按键排序
+        System.out.println(map); // Output：{2=Banana, 5=Apple, 10=Cherry}，按键排序
     }
 }
 

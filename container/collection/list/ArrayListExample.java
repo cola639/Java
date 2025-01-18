@@ -10,6 +10,7 @@ public class ArrayListExample {
         list.add("Banana");
         list.add("Cherry");
 
-        System.out.println(list); // 输出：[Apple, Banana, Cherry]
+        System.out.println(list); // Output：[Apple, Banana, Cherry]
+        // ArrayList: Uses dynamic array, fast for random access, not thread-safe.
     }
 }

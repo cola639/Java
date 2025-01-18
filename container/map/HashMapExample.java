@@ -10,6 +10,6 @@ public class HashMapExample {
         map.put(2, "Banana");
         map.put(null, "Cherry");
 
-        System.out.println(map); // 输出：{null=Cherry, 1=Apple, 2=Banana}，无序
+        System.out.println(map); // Output：{null=Cherry, 1=Apple, 2=Banana}，无序
     }
 }

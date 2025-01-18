@@ -10,6 +10,6 @@ public class HashSetExample {
         set.add("Banana");
         set.add("Apple"); // 重复元素，不会添加
 
-        System.out.println(set); // 输出：[Banana, Apple]，无序
+        System.out.println(set); // Output：[Banana, Apple]，无序
     }
 }
