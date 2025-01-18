@@ -3,7 +3,7 @@
 ### 1. **Runnable 示例 1：使用匿名内部类实现**
 
 ```java
-package runnable_callable;
+package runnableVScallable;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
@@ -29,7 +29,7 @@ public class RunnableExample {
 ### 2. **Runnable 示例 2：使用 Lambda 表达式实现**
 
 ```java
-package runnable_callable;
+package runnableVScallable;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
@@ -50,7 +50,7 @@ public class RunnableExample {
 ### 3. **Callable 示例 1：使用匿名内部类实现**
 
 ```java
-package runnable_callable;
+package runnableVScallable;
 
 import java.util.concurrent.Callable;
 import java.util.concurrent.ExecutorService;
@@ -86,7 +86,7 @@ public class CallableExample {
 ### 4. **Callable 示例 2：使用 Lambda 表达式实现**
 
 ```java
-package runnable_callable;
+package runnableVScallable;
 
 import java.util.concurrent.Callable;
 import java.util.concurrent.ExecutorService;
@@ -119,7 +119,7 @@ public class CallableExample {
 ### 5. **Callable 带异常的示例：使用 Lambda 表达式实现**
 
 ```java
-package runnable_callable;
+package runnableVScallable;
 
 import java.util.concurrent.Callable;
 import java.util.concurrent.ExecutorService;
