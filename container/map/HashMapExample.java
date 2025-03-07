@@ -12,7 +12,7 @@ public class HashMapExample {
 
         System.out.println(map); // Output：{null=Cherry, 1=Apple, 2=Banana}，无序
 
-        // 遍历打印HashMap
+        // For 遍历打印HashMap
         for (Map.Entry<Integer, String> entry : map.entrySet()) {
             System.out.println("Key: " + entry.getKey() + ", Value: " + entry.getValue());
         }
