@@ -31,5 +31,13 @@ public class P1_ByExtendThread extends Thread {
             t.start();
         }
     }
+
+    public static void main(String args[]) {
+        P1_ByExtendThread T1 = new P1_ByExtendThread("Thread-1");
+        T1.start();
+
+        P1_ByExtendThread T2 = new P1_ByExtendThread("Thread-2");
+        T2.start();
+    }
 }
 

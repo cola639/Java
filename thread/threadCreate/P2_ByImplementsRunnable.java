@@ -32,4 +32,12 @@ public class P2_ByImplementsRunnable implements Runnable {
         }
     }
 
+    public static void main(String args[]) {
+        P2_ByImplementsRunnable T1 = new P2_ByImplementsRunnable("Thread-1");
+        T1.start();
+
+        P2_ByImplementsRunnable T2 = new P2_ByImplementsRunnable("Thread-2");
+        T2.start();
+    }
+
 }
