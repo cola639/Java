@@ -3,6 +3,8 @@ import java.io.File;
 // 定义一个抽象类，提供通用的文件操作逻辑
 public abstract class AbstractFileService {
 
+    static String fileName = "AbstractFileService";
+
     // 共享的文件上传逻辑
     public void uploadFile(File file) {
         if (file != null) {

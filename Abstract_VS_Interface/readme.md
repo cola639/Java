@@ -5,7 +5,7 @@
 
 ### **1. 继承与实现**
 ✅ **`interface`**：
-- 可以 `implements` **多个** 接口（支持**多重实现**）。
+- 通过 `implements` 实现接口（支持**implements多个interface 多重实现**）。
 - 一个类可以同时实现多个接口，例如：
   ```java
   public interface A { void methodA(); }

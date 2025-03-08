@@ -1,6 +1,6 @@
 package loadClass;
 
-public class ClassLoadingExample {
+public class    ClassLoadingExample {
     // 1. 静态变量
     static String staticVar = "Static Variable";
 

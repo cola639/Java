@@ -6,6 +6,15 @@ import java.util.concurrent.FutureTask;
 
 // implements Callable
 public class P3_ByCallableDemo implements Callable<Integer> {
+    public Integer call() throws Exception {
+        int i = 0;
+        for (; i < 100; i++) {
+            System.out.println(Thread.currentThread().getName() + " " + i);
+        }
+        return i;
+    }
+
+
     public static void main(String[] args) {
         P3_TestCallableDemo ctt = new P3_TestCallableDemo();
         FutureTask<Integer> ft = new FutureTask<>(ctt);
@@ -24,11 +33,4 @@ public class P3_ByCallableDemo implements Callable<Integer> {
         }
     }
 
-    public Integer call() throws Exception {
-        int i = 0;
-        for (; i < 100; i++) {
-            System.out.println(Thread.currentThread().getName() + " " + i);
-        }
-        return i;
-    }
 }
