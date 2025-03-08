@@ -5,7 +5,7 @@ import java.util.concurrent.ExecutionException;
 import java.util.concurrent.FutureTask;
 
 // implements Callable
-public class P3_ByCallableDemo implements Callable<Integer> {
+public class P3_ByimplementsCallable implements Callable<Integer> {
     public Integer call() throws Exception {
         int i = 0;
         for (; i < 100; i++) {
@@ -16,7 +16,7 @@ public class P3_ByCallableDemo implements Callable<Integer> {
 
 
     public static void main(String[] args) {
-        P3_TestCallableDemo ctt = new P3_TestCallableDemo();
+        P3_ByimplementsCallable ctt = new P3_ByimplementsCallable();
         FutureTask<Integer> ft = new FutureTask<>(ctt);
         for (int i = 0; i < 100; i++) {
             System.out.println(Thread.currentThread().getName() + " 的循环变量i的值" + i);
