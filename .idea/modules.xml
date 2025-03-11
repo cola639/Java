@@ -32,10 +32,10 @@
       <module fileurl="file://$PROJECT_DIR$/serialization/serialization.iml" filepath="$PROJECT_DIR$/serialization/serialization.iml" />
       <module fileurl="file://$PROJECT_DIR$/statement/statement.iml" filepath="$PROJECT_DIR$/statement/statement.iml" />
       <module fileurl="file://$PROJECT_DIR$/stringCompare/stringCompare.iml" filepath="$PROJECT_DIR$/stringCompare/stringCompare.iml" />
-      <module fileurl="file://$PROJECT_DIR$/template/template.iml" filepath="$PROJECT_DIR$/template/template.iml" />
       <module fileurl="file://$PROJECT_DIR$/thread/thread.iml" filepath="$PROJECT_DIR$/thread/thread.iml" />
       <module fileurl="file://$PROJECT_DIR$/timeGen/timeGen.iml" filepath="$PROJECT_DIR$/timeGen/timeGen.iml" />
       <module fileurl="file://$PROJECT_DIR$/untitled/untitled.iml" filepath="$PROJECT_DIR$/untitled/untitled.iml" />
+      <module fileurl="file://$PROJECT_DIR$/waitVsSleep/waitVsSleep.iml" filepath="$PROJECT_DIR$/waitVsSleep/waitVsSleep.iml" />
     </modules>
   </component>
 </project>
