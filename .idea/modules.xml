@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/Abstract_VS_Interface/Abstract_VS_Interface.iml" filepath="$PROJECT_DIR$/Abstract_VS_Interface/Abstract_VS_Interface.iml" />
       <module fileurl="file://$PROJECT_DIR$/BIO_NIO_AIO/BIO_NIO_AIO.iml" filepath="$PROJECT_DIR$/BIO_NIO_AIO/BIO_NIO_AIO.iml" />
       <module fileurl="file://$PROJECT_DIR$/Java.iml" filepath="$PROJECT_DIR$/Java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MultipleThread/MultipleThread.iml" filepath="$PROJECT_DIR$/MultipleThread/MultipleThread.iml" />
       <module fileurl="file://$PROJECT_DIR$/annoation/annoation.iml" filepath="$PROJECT_DIR$/annoation/annoation.iml" />
       <module fileurl="file://$PROJECT_DIR$/array/array.iml" filepath="$PROJECT_DIR$/array/array.iml" />
       <module fileurl="file://$PROJECT_DIR$/clone/clone.iml" filepath="$PROJECT_DIR$/clone/clone.iml" />
