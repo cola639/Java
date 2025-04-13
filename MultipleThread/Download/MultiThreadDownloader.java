@@ -48,7 +48,7 @@ public class MultiThreadDownloader {
             double speed = downloaded / 1024.0 / seconds; // KB/s
             System.out.printf("\r进度：%.2f%%，已下载：%.2f MB，速度：%.2f KB/s",
                     percent, downloaded / 1024.0 / 1024, speed);
-        }, 0, 200, TimeUnit.MILLISECONDS); // 每 200ms 更新一次
+        }, 0, 100, TimeUnit.MILLISECONDS); // 每 200ms 更新一次
 
         // 等待所有线程完成
         executor.shutdown();
